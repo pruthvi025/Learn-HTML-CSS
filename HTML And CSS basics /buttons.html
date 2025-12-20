@@ -10,7 +10,16 @@
   border-radius: 5px;
   cursor: pointer;
   margin-right: 8px;/*used to add a space where we want it may be on top or on bottom or left or right*/
+  
+
 }
+
+.Subscribe-button:active{   /*when we click means it active */
+  opacity: 0.7; /*when we click then it decide blinking capacity*/
+}
+
+
+
 .Join-Button{
   background-color: white;
   color: rgb(8, 130, 211);
@@ -21,7 +30,20 @@
   border-width: 1px;
   cursor: pointer;
   margin-right:8px;
+  transition: background-color 1s;  /*after cursor goes on button then how take time to change bg color*/
 }
+
+.Join-Button:hover{
+  background-color: blue;
+  color: white;
+}
+
+.Join-Button:active{
+  opacity: 0.7;
+}
+
+
+
 .Tw-Button{
   color: white;
   background-color: blue;
@@ -33,6 +55,7 @@
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
+
 }
 </style>
 <!-- style used to write a css code wich modifies the other element  -->
