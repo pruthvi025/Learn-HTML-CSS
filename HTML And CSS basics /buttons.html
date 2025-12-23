@@ -10,6 +10,7 @@
   border-radius: 5px;
   cursor: pointer;
   margin-right: 8px;/*used to add a space where we want it may be on top or on bottom or left or right*/
+  vertical-align: top; /*alighn button top*/
   
 
 }
@@ -23,15 +24,29 @@
 .Join-Button{
   background-color: white;
   color: rgb(8, 130, 211);
+  /* rather than using height and width if we use padding then it greate to use because it will 
+  auto adjust the space inside the button  */
   height: 20px;
   width: 50px;
   border-color: rgb(12, 163, 213);
   border-radius: 5px;
   border-width: 1px;
   cursor: pointer;
-  margin-right:8px;
+  margin-right:8px; /*give the space out of the button*/
   transition: background-color 1s;  /*after cursor goes on button then how take time to change bg color*/
+  vertical-align: top;
+  padding-left: 10px; /*it give the space inside the  button box in wich direction we specify*/
 }
+
+
+/* hover and active are css psudo classes means it represent temprory state of elements
+meaning is :- 
+
+:hover → mouse is over element
+
+:active → element is being clicked
+
+:focus → element is selected (keyboard / click) */
 
 .Join-Button:hover{
   background-color: blue;
@@ -47,16 +62,30 @@
 .Tw-Button{
   color: white;
   background-color: blue;
-  height: 20px;
+
+  /* rather than using height and width if we use padding then it greate to use because it will 
+  auto adjust the space inside the button  */
+  /* height: 20px;
+  width: 80px; */
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+
   border-radius: 15px;
   border-width: 0px;
-  width: 80px;
   cursor: pointer;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 10px;
   cursor: pointer;
+  vertical-align: top;
 
 
+}
+.Tw-Button:active{
+  opacity:0.8;
 
 }
 </style>
