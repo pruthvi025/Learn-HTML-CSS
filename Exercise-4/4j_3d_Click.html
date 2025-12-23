@@ -11,12 +11,25 @@
     padding-top: 5px;
     font-size: 70px;
     cursor: pointer;
-    box-shadow: 0 8px 0 darkgreen;
-    transition: transform 0.1s, box-shadow 0.1s ;
+    box-shadow: 0 8px 0 darkgreen;/*Draw a shadow 8 pixels BELOW the button
+0 = no left or right shadow
+8px = shadow goes down
+darkgreen = shadow color*/
+    transition: transform 0.1s, box-shadow 0.1s ; /*transition = make changes happen slowly, not suddenly*/
   }
   .shadow:active{
    
-    transform: translateY(6px);
+    transform: translateY(20px);/*➡ Move the button DOWN by 6 pixels
+translate = move
+Y = up–down
+6px = a little bit down
+👉 When you click the button, it goes down like a real button.*/
     box-shadow: 0 2px 0 darkgreen;
+    border-radius: 5px;
   }
 </style>
+
+<!-- Axis	Direction
+X	Left ↔ Right
+Y	Up ↕ Down
+Z	Near ↔ Far (depth) -->
