@@ -1,0 +1,19 @@
+p{
+    text-align: center;
+}
+.line1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+.line2{
+    font-size: 30px;
+    margin-top: auto;
+    
+
+}
+.under{
+    text-decoration: underline;
+}

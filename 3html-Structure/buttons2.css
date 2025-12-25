@@ -1,0 +1,72 @@
+.Subscribe-button {
+            background-color: rgb(200, 0, 0);
+            color: white;
+            border: none;
+            height: 20px;
+            width: 100px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 8px;
+            vertical-align: top;
+
+
+        }
+
+        .Subscribe-button:active {
+            opacity: 0.7;
+        }
+
+
+
+        .Join-Button {
+            background-color: white;
+            color: rgb(8, 130, 211);
+
+            height: 20px;
+            width: 50px;
+            border-color: rgb(12, 163, 213);
+            border-radius: 5px;
+            border-width: 1px;
+            cursor: pointer;
+            margin-right: 8px;
+            transition: background-color 1s;
+            vertical-align: top;
+            padding-left: 10px;
+        }
+
+        .Join-Button:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        .Join-Button:active {
+            opacity: 0.7;
+        }
+
+
+
+        .Tw-Button {
+            color: white;
+            background-color: blue;
+
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+
+
+            border-radius: 15px;
+            border-width: 0px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 10px;
+            cursor: pointer;
+            vertical-align: top;
+
+
+        }
+
+        .Tw-Button:active {
+            opacity: 0.8;
+
+        }
