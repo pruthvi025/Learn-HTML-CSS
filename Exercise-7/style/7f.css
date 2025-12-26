@@ -1,0 +1,22 @@
+.email{
+    color: rgb(124, 116, 105);
+    margin-bottom: 0%;
+    font-family: Arial;
+}
+.line{
+    font-size: 7.5px;
+    font-family: Arial;
+    color: rgb(75, 56, 81);
+}
+.button{
+    background-color: rgb(35, 164, 183);
+    color: white;
+    border-radius: 20px;
+    border-width: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+
+}

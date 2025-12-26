@@ -1,0 +1,27 @@
+.row{
+display: flex;
+align-items: center;
+gap: 10px;
+margin-top: 100px;
+}
+
+.img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+}
+.line{
+    color: rgb(99, 116, 116);
+    font-family: Arial;
+    font-size: 10px;
+    
+    
+}
+.button{
+    background-color: blueviolet;
+    color: white;
+    border-width: 0px;
+    border-radius: 20px;
+}
