@@ -1,0 +1,12 @@
+.para{
+    width: 210px;
+    display: inline-block;
+    vertical-align: middle;
+    /* width → controls box size
+
+inline-block → same line + box behavior
+
+vertical-align → aligns with other inline elements, not content
+
+This combo = old-school layout alignment */
+}
