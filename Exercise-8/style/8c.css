@@ -1,0 +1,18 @@
+
+.img{
+    width: 200px;
+    display: block;
+    align-items: center;
+    margin-left: 100px;
+
+  
+}
+.txt{
+    width: 300px;
+    border-radius: 5px;
+    margin-left: 100px;
+    border-color: aliceblue;
+    border: 1px solid #ccc;
+    outline: none;
+
+}
