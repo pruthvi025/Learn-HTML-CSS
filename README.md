@@ -22,7 +22,5 @@ I am following the lectures by **SuperSimpleDev (YouTube)** and committing code 
   - CSS fundamentals → layouts, flexbox, responsiveness
   - Real-world examples and practice
 
----
 
-## 🗂️ Repository Structure
 
