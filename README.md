@@ -12,8 +12,7 @@ I am following the lectures by **SuperSimpleDev (YouTube)** and committing code 
 - Building discipline through **daily GitHub commits**
 - Writing clean, understandable code (not tutorial copy-paste)
 
----
-
+- 
 ## 📚 Learning Source
 
 - 🎥 YouTube: **SuperSimpleDev**
