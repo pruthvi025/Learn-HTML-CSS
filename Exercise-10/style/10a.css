@@ -1,0 +1,30 @@
+.user-row{
+    width: 400px;
+    display:flex;
+    align-items: center;
+    gap: 12px;
+}
+.img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.name{
+    margin-bottom:4px;;
+}
+
+.info,.status{
+    margin: 0;
+}
+
+.button{
+    display:flex;
+    margin-left: 25px;
+    color: rgb(236, 241, 246);
+    background-color: rgb(53, 72, 123);
+    border-radius: 5px;
+    border-color: rgb(53, 72, 123);
+    cursor: pointer;
+}
