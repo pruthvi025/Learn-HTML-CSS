@@ -1,0 +1,33 @@
+.first-row,.second-row,.third-row{
+    display: flex;
+    
+}
+.main-grid{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.first-row-details{
+    margin-left: 10px;
+
+}
+.img{
+    margin-left: 20px;
+    width: 300px;
+    height: 140px;
+}
+.video-title{
+    margin-top: 5px;
+    font-weight:bold ;
+    width: 270px;
+    margin-bottom: 10px;
+}
+.channel-name{
+    color: rgb(80, 97, 97);
+    margin:0px;
+}
+.video-detail{
+    margin-top: 5px;
+    color: rgb(80, 97, 97);
+
+}
